@@ -1,0 +1,10 @@
+version: '2'
+services:
+        dockerdemo:
+                #build: ./docker-build
+                image: esag/dockerdemo:v1
+                ports:
+                        - 8080
+                volumes:
+                        - ./data:/data
+

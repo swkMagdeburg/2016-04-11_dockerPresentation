@@ -1,0 +1,20 @@
+logging:
+  level: INFO
+  loggers:
+    io.dropwizard: INFO
+    org.eclipse.jetty: WARN
+    de.kramhal: TRACE
+  appenders:
+    - type: console
+
+server:
+  rootPath: /docker/*
+  applicationContextPath: /
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
+
+filePath: /data/File.txt
