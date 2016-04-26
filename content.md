@@ -389,7 +389,7 @@ docker run --rm -p 8181:8080 esag/dockerdemo:v1`
 * Werkzeug für multi-Container-Anwendungen
 * Konfiguration und Verwaltung untereinander abhängiger Container
 
-<img src="./img/compose.png" width="25%">
+<img src="./img/Compose.png" width="25%">
 
 ---
 
